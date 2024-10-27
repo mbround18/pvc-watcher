@@ -1,0 +1,17 @@
+# Apply LF to all files in the repository
+* text=auto eol=lf
+
+# Explicitly specify LF for common Python-related files
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+# Prevent binary files from being converted
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
